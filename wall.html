@@ -1,0 +1,39 @@
+<!-- wall.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Wall</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Interactive Wall</h1>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="details.html">Proverb Detail</a></li>
+        <li><a href="wall.html" class="active">Interactive Wall</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form class="wall-form">
+        <label for="name">Name</label>
+      <input type="text" placeholder="Enter your name" required />
+      <label for="email">Email</label>
+      <input type="email" placeholder="Please enter your email" required />
+      <label for="proverb">Share your favorite proverb</label>
+      <textarea id="proverb" rows="4" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Afghan Proverbs. All rights reserved.</p>
+  </footer>
+</body>
+</html>
